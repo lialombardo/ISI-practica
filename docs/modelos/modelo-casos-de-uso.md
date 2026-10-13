@@ -69,6 +69,21 @@ Los objetivos de esta tabla son resúmenes. Las descripciones detalladas quedan 
 | UC-09 | Consultar ayuda | Consultar las instrucciones y los temas de ayuda de las funciones seleccionadas. | Principal: Usuario. |
 | UC-10 | Recorrer bienvenida | Conocer las funciones básicas mediante el recorrido del primer acceso, con la posibilidad de omitirlo. | Principal: Usuario registrado. |
 | UC-11 | Enviar correo electrónico | Enviar el mensaje que necesita el caso de uso que lo incluye. | Apoyo: Servicio de correo electrónico. No se asigna un actor principal independiente. |
+
+
+| --- | --- | --- | --- |
+| UC-12 | Introducir y gestionar datos de salud e historial | Introducir manualmente datos fisiológicos, análisis de laboratorio y notas de síntomas, y consultar o filtrar el historial. | Principal: Paciente. |
+| UC-13 | Exportar datos en PDF y CSV | Exportar el historial de salud y los datos fisiológicos en formatos PDF o CSV. | Principal: Paciente. |
+| UC-14 | Autorizar y revocar acceso para consultar datos | Autorizar a nutricionistas específicos para acceder a los datos de salud y revocar el acceso en cualquier momento. | Principal: Paciente. |
+| UC-15 | Enviar correo para invitar nutricionistas | Enviar una invitación por correo electrónico a un nutricionista que aún no dispone de cuenta. | Principal: Paciente. Apoyo: Servicio de correo electrónico. |
+| UC-16 | Compartir datos con el cuidador | Autorizar de forma expresa al cuidador asociado para consultar los datos de salud compartidos. | Principal: Paciente. |
+| UC-17 | Crear y proponer recetas | Crear una propuesta de receta con sus detalles y multimedia, dejándola pendiente de validación. | Principal: Paciente o Cuidador. |
+| UC-18 | Gestionar recetas | Editar, eliminar con confirmación y consultar el historial completo de las recetas publicadas. | Principal: Usuario registrado. |
+| UC-19 | Validar y publicar recetas | Revisar y validar recetas propuestas, o publicar directamente recetas propias mostrando la insignia distintiva. | Principal: Nutricionista. |
+| UC-20 | Buscar y filtrar recetas | Buscar recetas mediante palabras clave, ingredientes, exclusión de alérgenos y filtros avanzados adaptados al idioma. | Principal: Usuario. |
+| UC-21 | Ordenar y consultar resultados de recetas | Ordenar los resultados de búsqueda por relevancia, popularidad, calificación o fecha, y consultar el detalle de una receta. | Principal: Usuario. |
+| UC-22 | Consultar ayuda de búsqueda y publicación | Consultar los temas ampliados de la guía interactiva relativos a la búsqueda y publicación de recetas. | Principal: Usuario. |
+
 | UC-31 | Aprobar cuenta de cuidador o nutricionista | Aprobar una cuenta solicitada con perfil de cuidador o nutricionista, conforme a las condiciones del perfil. | Principal: Coordinador. |
 | UC-32 | Suspender cuenta de usuario activa | Suspender una cuenta de usuario que se encuentra activa. | Principal: Coordinador. |
 | UC-33 | Eliminar cuenta de usuario | Eliminar una cuenta de usuario y conservar el contenido publicado cuando corresponda a un cuidador. | Principal: Coordinador. |
