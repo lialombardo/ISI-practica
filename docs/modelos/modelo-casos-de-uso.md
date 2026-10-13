@@ -69,9 +69,6 @@ Los objetivos de esta tabla son resúmenes. Las descripciones detalladas quedan 
 | UC-09 | Consultar ayuda | Consultar las instrucciones y los temas de ayuda de las funciones seleccionadas. | Principal: Usuario. |
 | UC-10 | Recorrer bienvenida | Conocer las funciones básicas mediante el recorrido del primer acceso, con la posibilidad de omitirlo. | Principal: Usuario registrado. |
 | UC-11 | Enviar correo electrónico | Enviar el mensaje que necesita el caso de uso que lo incluye. | Apoyo: Servicio de correo electrónico. No se asigna un actor principal independiente. |
-
-
-| --- | --- | --- | --- |
 | UC-12 | Introducir y gestionar datos de salud e historial | Introducir manualmente datos fisiológicos, análisis de laboratorio y notas de síntomas, y consultar o filtrar el historial. | Principal: Paciente. |
 | UC-13 | Exportar datos en PDF y CSV | Exportar el historial de salud y los datos fisiológicos en formatos PDF o CSV. | Principal: Paciente. |
 | UC-14 | Autorizar y revocar acceso para consultar datos | Autorizar a nutricionistas específicos para acceder a los datos de salud y revocar el acceso en cualquier momento. | Principal: Paciente. |
