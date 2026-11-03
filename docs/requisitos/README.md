@@ -9,16 +9,11 @@ La línea base de requisitos está formada por los dos documentos siguientes, qu
 
 El catálogo no es una especificación independiente: es parte de la SRS. Para consultar o aprobar una versión de la especificación se deben utilizar siempre ambos documentos en la misma versión o etiqueta de publicación.
 
-## Uso en las prácticas
+## Relación entre documentos
 
-La SRS se introduce como resultado de L03 y se consolida como línea base común antes de L04. Desde entonces sirve de referencia compartida en las prácticas posteriores:
+La SRS y el catálogo establecen los requisitos de referencia. Las historias de búsqueda desarrollan las necesidades de UR-08 y UC-21, conforme al acta de acuerdos de búsqueda. Cada historia conserva sus fuentes y sus criterios de aceptación.
 
-- L04 y L05 consultan los requisitos para elaborar y describir los casos de uso.
-- L06 y L07 mantienen la procedencia entre requisitos, historias de usuario y criterios de aceptación.
-- L08 utiliza la línea base para analizar el impacto de una solicitud de cambio.
-- L09, L10 y L11 emplean los requisitos como fuente para los modelos de análisis.
-
-Las entregas de cada equipo no modifican directamente esta línea base común. El repositorio publica la versión de referencia que deben consultar; los artefactos producidos en cada práctica conservan sus propios enlaces de trazabilidad hacia los requisitos pertinentes.
+La épica reúne la necesidad conjunta. Su división y las decisiones de revisión se documentan junto a las historias.
 
 ## Convenciones
 
@@ -30,8 +25,11 @@ Las entregas de cada equipo no modifican directamente esta línea base común. E
 
 ## Documentación relacionada
 
+- [Plantilla de backlog](plantilla-backlog.md), v1.2. Estructura vacía para preparar `backlog-propuesto.md`: orden, decisiones de prioridad, comprobaciones de calidad y Definición de Hecho. La posición y el identificador de cada historia son independientes. La conclusión vincula una condición de DoD con la evidencia necesaria.
+- [Historias de usuario de búsqueda](historias-usuario-busqueda.md), v1.3, Revisado. Épica descompuesta en US-01, US-02 y US-03, con criterios de aceptación, fuentes y justificación de la división.
 - [Visión y alcance](../vision/vision_y_alcance.md)
 - [Actas de captura y aclaraciones](../captura/README.md)
 - [Registro de decisiones](../decisiones/registro-decisiones.md)
 - [Criterios de revisión de requisitos](../calidad/criterios-revision-requisitos.md)
 - [Modelos de análisis](../modelos/README.md)
+- [Plantilla de historias de usuario de búsqueda](plantilla-historias-usuario-busqueda.md), v1.2. Estructura reutilizable para documentar la épica de búsqueda, su división en US-01 a US-03, los criterios de aceptación, las fuentes y las decisiones de revisión. El documento resultante se mantiene en `historias-usuario-busqueda.md`.
