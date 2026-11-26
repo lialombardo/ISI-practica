@@ -22,7 +22,9 @@ Exporta cada vista trabajada a PNG en `docs/modelos/imagenes/` y añade aquí su
 
 ### 3.1 Gestión de usuarios
 
-Pendiente. Imagen prevista: `clases-dominio-gestion-usuarios.png`. Fuente principal: acta §2 y acuerdos del apartado 9.
+Pendiente. Imagen prevista: <img width="1220" height="858" alt="image" src="https://github.com/user-attachments/assets/756aec71-1f00-47c5-b201-82ced6e72a32" />
+
+Fuente principal: acta §2 y acuerdos del apartado 9.
 
 ### 3.2 Gestión de recetas
 
